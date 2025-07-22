@@ -96,7 +96,7 @@
         <p><strong>🧭 UX Strategy</strong>: Content models, IA, 508 alignment</p>
       </div>
       <div>
-        <iframe src="/Sung_Lee_Resume_BA_TECH_7-2025.pdf" width="100%" height="300px" class="rounded-xl shadow-lg"></iframe>
+        <iframe src="Sung_Lee_Resume_5_Tech_Writer_New_2025.pdf" width="100%" height="300px" class="rounded-xl shadow-lg"></iframe>
       </div>
     </div>
   </section>
