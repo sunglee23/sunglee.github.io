@@ -52,7 +52,7 @@
       </h2>
       <p class="text-xl text-gray-300 mt-4 typing">UX Strategy. Agile Delivery. Federal Systems.</p>
       <div class="mt-6 space-x-4">
-        <a href="/Sung_Lee_Resume_5_Tech_Writer_New_2025" target="_blank" class="bg-blue-500 px-5 py-2 rounded-lg font-semibold hover:bg-blue-600">View Resume</a>
+        <a href="/Sung_Lee_Resume_5_Tech_Writer_New_2025.pdf" target="_blank" class="bg-blue-500 px-5 py-2 rounded-lg font-semibold hover:bg-blue-600">View Resume</a>
         <a href="mailto:sung.m.lee23@gmail.com" class="bg-gray-700 px-5 py-2 rounded-lg font-semibold hover:bg-gray-600">Email Me</a>
         <a href="https://www.linkedin.com/in/sungmlee" target="_blank" class="bg-white text-black px-5 py-2 rounded-lg font-semibold hover:bg-gray-300">LinkedIn</a>
       </div>
