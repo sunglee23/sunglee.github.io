@@ -5,67 +5,90 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sung Lee | Business Analyst / Technical Writer</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    html { scroll-behavior: smooth; }
+    .glass { background: rgba(255, 255, 255, 0.2); backdrop-filter: blur(10px); }
+  </style>
 </head>
 <body class="bg-gray-900 text-white font-sans">
-  <nav class="fixed w-full z-30 bg-gray-800 shadow-lg px-6 py-4 flex justify-between items-center">
-    <h1 class="text-xl font-bold">Sung Lee</h1>
-    <div class="space-x-4">
-      <a href="#about" class="hover:text-blue-400">About</a>
-      <a href="#projects" class="hover:text-blue-400">Projects</a>
-      <a href="#resume" class="hover:text-blue-400">Resume</a>
-      <a href="#contact" class="hover:text-blue-400">Contact</a>
+
+  <!-- Navbar -->
+  <nav class="fixed w-full z-30 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 shadow-lg">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-3xl font-bold text-white">Sung Lee</h1>
+      <div class="space-x-6">
+        <a href="#about" class="hover:text-yellow-400 transition duration-300">About</a>
+        <a href="#projects" class="hover:text-yellow-400 transition duration-300">Projects</a>
+        <a href="#resume" class="hover:text-yellow-400 transition duration-300">Resume</a>
+        <a href="#contact" class="hover:text-yellow-400 transition duration-300">Contact</a>
+      </div>
     </div>
   </nav>
 
-  <section class="h-screen flex items-center justify-center pt-24 text-center">
+  <!-- Hero Section -->
+  <section class="h-screen flex items-center justify-center bg-gradient-to-br from-gray-800 to-black pt-24 text-center">
     <div>
-      <h2 class="text-5xl font-extrabold">Hi, I’m <span class="text-blue-400">Sung Lee</span></h2>
-      <p class="mt-4 text-xl text-gray-300">Business Analyst • Technical Writer • UX Strategist</p>
-      <div class="mt-6 space-x-4">
-        <a href="Sung_Lee_Resume_5_Tech_Writer_New_2025.pdf" class="bg-blue-500 px-4 py-2 rounded hover:bg-blue-600" target="_blank">View Resume</a>
-        <a href="mailto:sung.m.lee23@gmail.com" class="bg-gray-700 px-4 py-2 rounded hover:bg-gray-600">Email Me</a>
-        <a href="https://www.linkedin.com/in/sungmlee" class="bg-white text-black px-4 py-2 rounded hover:bg-gray-300" target="_blank">LinkedIn</a>
+      <img src="your-photo.jpg" alt="Sung Lee" class="rounded-full w-40 h-40 mx-auto shadow-xl mb-6"/>
+      <h2 class="text-5xl font-extrabold text-white">Hi, I’m <span class="text-yellow-400">Sung Lee</span></h2>
+      <p class="text-lg text-gray-300 mt-4">Business Analyst • Technical Writer • UX Strategist</p>
+      <div class="mt-6 space-x-6">
+        <a href="Sung_Lee_Resume_BA_TECH_7-2025.pdf" class="bg-yellow-500 px-5 py-2 rounded-lg font-semibold hover:bg-yellow-600 transition">View Resume</a>
+        <a href="mailto:sung.m.lee23@gmail.com" class="bg-gray-700 px-5 py-2 rounded-lg font-semibold hover:bg-gray-600 transition">Contact Me</a>
+        <a href="https://www.linkedin.com/in/sungmlee" target="_blank" class="bg-white text-black px-5 py-2 rounded-lg font-semibold hover:bg-gray-300 transition">LinkedIn</a>
       </div>
     </div>
   </section>
 
-  <section id="about" class="py-16 px-6 max-w-4xl mx-auto">
-    <h2 class="text-3xl text-blue-400 font-bold mb-4">About Me</h2>
-    <p class="text-gray-300 text-lg">Clearance-ready Technical Writer & Business Analyst with 5+ years supporting federal agencies like the IRS and DoD. I specialize in simplifying complex systems into accessible digital products using Agile, 508 standards, and Power Platform tools.</p>
+  <!-- About Section -->
+  <section id="about" class="py-20 px-8 max-w-4xl mx-auto">
+    <h2 class="text-3xl text-yellow-400 font-bold mb-4">About Me</h2>
+    <p class="text-lg text-gray-300 leading-relaxed">
+      I’m a clearance-ready Technical Writer and Business Analyst with 5+ years supporting federal digital transformation initiatives, including IRS and DoD. I specialize in turning complex systems into clear, accessible, and user-friendly digital experiences using Agile methods, 508 compliance, and Power Platform tools.
+    </p>
   </section>
 
-  <section id="projects" class="bg-gray-800 py-16 px-6">
-    <h2 class="text-3xl text-blue-400 font-bold text-center mb-10">Projects</h2>
-    <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-      <div class="bg-gray-700 p-6 rounded-xl">
-        <h3 class="text-xl font-semibold">IRS Power Apps Manual</h3>
-        <p class="text-gray-300">End-to-end training documentation with screenshots and 508 compliance.</p>
+  <!-- Projects Section -->
+  <section id="projects" class="py-20 px-8 bg-gray-800">
+    <h2 class="text-3xl text-yellow-400 font-bold mb-10 text-center">Featured Projects</h2>
+    <div class="grid md:grid-cols-2 gap-8">
+      <div class="bg-gray-700 p-6 rounded-xl shadow-xl glass hover:scale-105 transition duration-300">
+        <h3 class="text-xl font-semibold mb-2 text-yellow-400">IRS Power Apps Manual</h3>
+        <p class="text-gray-300 mb-4">End-to-end training manual for IRS Enterprise Front Door Application with 508-compliant screenshots and workflows.</p>
+        <a href="#" class="text-yellow-300 underline">View Project</a>
       </div>
-      <div class="bg-gray-700 p-6 rounded-xl">
-        <h3 class="text-xl font-semibold">Proposal Content System</h3>
-        <p class="text-gray-300">Styled, reusable proposal templates for federal contracting workflows.</p>
+      <div class="bg-gray-700 p-6 rounded-xl shadow-xl glass hover:scale-105 transition duration-300">
+        <h3 class="text-xl font-semibold mb-2 text-yellow-400">Proposal Content System</h3>
+        <p class="text-gray-300 mb-4">Streamlined federal proposal writing process with templates and styled documentation for multiple contracting teams.</p>
+        <a href="#" class="text-yellow-300 underline">View Project</a>
       </div>
     </div>
   </section>
 
-  <section id="resume" class="py-16 px-6 max-w-5xl mx-auto">
-    <h2 class="text-3xl text-blue-400 font-bold mb-6">Resume Snapshot</h2>
-    <ul class="text-gray-300 space-y-2">
-      <li><strong>📊 Business Analysis:</strong> Agile, Jira, process mapping</li>
-      <li><strong>✍️ Technical Writing:</strong> SOPs, manuals, release notes</li>
-      <li><strong>🧭 UX Strategy:</strong> 508 compliance, user flows, accessibility</li>
-    </ul>
+  <!-- Resume Section -->
+  <section id="resume" class="py-20 px-8 max-w-5xl mx-auto">
+    <h2 class="text-3xl text-yellow-400 font-bold mb-4">Resume Snapshot</h2>
+    <div class="grid sm:grid-cols-2 gap-6 text-gray-300">
+      <div>
+        <p><strong>📊 Business Analysis</strong>: Agile, requirements lifecycle, process mapping</p>
+        <p><strong>✍️ Technical Writing</strong>: SOPs, user guides, release notes, training manuals</p>
+        <p><strong>🧭 UX Strategy</strong>: Content hierarchy, user story alignment, accessibility</p>
+      </div>
+      <div>
+        <iframe src="/Sung_Lee_Resume_BA_TECH_7-2025.pdf" width="100%" height="300px" class="rounded-xl"></iframe>
+      </div>
+    </div>
   </section>
 
-  <section id="contact" class="bg-gray-800 py-16 px-6">
-    <h2 class="text-3xl text-blue-400 font-bold mb-4">Contact</h2>
-    <p class="text-gray-300">📧 Email: <a class="underline" href="mailto:sung.m.lee23@gmail.com">sung.m.lee23@gmail.com</a></p>
-    <p class="text-gray-300">📞 Phone: <a class="underline" href="tel:+14103652179">(410) 365-2179</a></p>
-    <p class="text-gray-300">🔗 LinkedIn: <a class="underline" target="_blank" href="https://linkedin.com/in/sungmlee">linkedin.com/in/sungmlee</a></p>
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 px-8 bg-gray-800">
+    <h2 class="text-3xl text-yellow-400 font-bold mb-6">Get in Touch</h2>
+    <p class="text-gray-300 mb-4">Email: <a href="mailto:sung.m.lee23@gmail.com" class="underline">sung.m.lee23@gmail.com</a></p>
+    <p class="text-gray-300 mb-4">Phone: <a href="tel:+14103652179" class="underline">(410) 365-2179</a></p>
+    <p class="text-gray-300">LinkedIn: <a href="https://www.linkedin.com/in/sungmlee" class="underline" target="_blank">linkedin.com/in/sungmlee</a></p>
   </section>
 
   <footer class="text-center text-gray-500 py-6 text-sm">
-    © 2025 Sung Lee. Built with TailwindCSS.
+    © 2025 Sung Lee. Built with 💙 and TailwindCSS.
   </footer>
 </body>
 </html>
