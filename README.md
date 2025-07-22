@@ -59,7 +59,7 @@
     </div>
   </section>
 
-<img src="profile1.jpg" alt="Sung Lee" class="rounded-full w-40 h-40 mx-auto shadow-xl mb-6"/>
+<img src="Profile1.jpg" alt="Sung Lee" class="rounded-full w-40 h-40 mx-auto shadow-xl mb-6"/>
 
   <!-- About Section -->
   <section id="about" class="py-20 px-8 max-w-4xl mx-auto" data-aos="fade-up">
